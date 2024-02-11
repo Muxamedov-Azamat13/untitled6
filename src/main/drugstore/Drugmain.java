@@ -43,7 +43,7 @@ public class Drugmain {
 
         System.out.println(pharmacy);
 
-        // Здесь я исползоваль лямбда функции по сортировке цене и по весам
+        // Здесь я исползоваль лямбда функции по сортировке и по цене и по весам
         Collections.sort(pharmacy, Comparator.reverseOrder());
         System.out.println(pharmacy);
 
